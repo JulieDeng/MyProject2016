@@ -1,0 +1,33 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+  <head>
+    <script type="text/javascript" src="popup.js"></script>
+  </head>
+
+
+  <body>
+
+    <form id="submission">
+      <div>
+        <h3 style="font-weight:bold; text-align:center;">WechatBot</h3>
+        <label for="name">GroupName:</label>
+        <input type="text" id="name" name="groupName" />
+      </div>
+      <div class="button">
+        <button id = "button">Submit</button>
+      </div>
+    </form>
+
+  </body>
+
+
+
+
+
+</html>
+

@@ -1,0 +1,1 @@
+This is a Google Chrome Extension which enables Wechat group managers to automatically approve friend requests and invite people to specific groups based on requests.
