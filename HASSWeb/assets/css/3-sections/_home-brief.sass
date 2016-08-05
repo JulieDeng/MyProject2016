@@ -1,0 +1,83 @@
+section.brief
+  background:
+    image: url(../img/about_bg2.jpg)
+    //color: #e20a0a
+    position: center
+    size: cover
+  color: white
+  height: 300px
+
+  @media (max-width: 640px)
+    height: 250px
+
+
+
+
+  .captionphoto
+    position: absolute
+    top: 0
+    height: calc(100% + 80px)
+    width: 100%
+    margin: -200px 0
+    border: solid 10px #fff200
+    background:
+      image: url(../img/captionpic.jpg)
+      position: center 0px
+      repeat: no-repeat
+      size: cover
+
+    @media (max-width: 640px)
+      display: none
+
+  .intro
+    background: rgba(black, 0.5)
+    height: 200px
+    width: calc(50% + 25px)
+    margin-left: 10px
+
+    @media (max-width: 640px)
+      width: 90%
+      height: 60px
+      margin-left: 5%
+      display: block
+
+
+
+  h2
+    color: #fff200
+    font-size: 50px
+    margin-left: 10%
+
+    @media (max-width: 650px)
+      text-align: center
+      display: inline
+
+
+
+
+  p
+    color: white
+    margin-left: 5%
+    font-size: 20px
+
+    @media (max-width: 640px)
+      margin-right: auto
+      text-align: left
+      display: block
+      font-size: 20px
+
+  .col-1
+    position: relative
+    height: 300px
+    display: flex
+    align-items: stretch
+    flex-direction: column
+    justify-content: center
+
+    @media (max-width: 640px)
+      height: auto
+      display: block
+      padding: 30px 25px
+
+      &:last-child
+        padding: 0px 20px 50px

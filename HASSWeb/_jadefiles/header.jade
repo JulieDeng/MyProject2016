@@ -1,0 +1,21 @@
+mixin nav-content()
+  ul
+    li: a(href="#about") About
+    li: a(href="#atalas") Atalas
+    //li: a(href="#charts") Charts
+    li: a(href="#team") Team
+    li: a(href="#contact") Contact
+
+.mobile-nav
+  +nav-content()
+
+header
+  .header-position
+    h1.logo Travis Neilson
+    
+    nav.site-nav
+      +nav-content()
+    
+    a(href="mailto:david.s@econ.berkeley.edu").email-link +email us
+    
+    .mobile-nav-toggle: span
